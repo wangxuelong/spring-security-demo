@@ -39,6 +39,7 @@ public class AuthController {
 	public ModelAndView logout(HttpServletRequest request, ModelMap map,
 			RedirectAttributes attributes) {
 		System.out.println("logout");
+
 		return new ModelAndView("../login");
 	}
 }
